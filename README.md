@@ -48,3 +48,5 @@ https://funny-decision-c6a.notion.site/paradox-241a1f44dfc680a1932ed3c2c87fac28
 - 개인 GitHub 저장소에서 작업 후, `PARADOX-Tech-Course/frontend-profile-list` 저장소에 **PR 제출**
 - PR 제목: `[3일차] {본인이름} 과제 제출합니다.`
 - 마감: **2025년 8월 8일 (금) 오후 12시 59분까지**
+- PR은 8월 8일(금) 오전 9시 00시 ~ 오후 12시 59분까지 제출 가능.
+그 전에 제출 하지 말 것 (반드시 엄수)
