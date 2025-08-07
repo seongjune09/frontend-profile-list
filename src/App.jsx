@@ -1,14 +1,14 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import MainPage from './pages/Home.jsx'
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+import Header from './components/Header';
 
-function App() {
+export default function App() {
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<MainPage />} />
-      </Routes>
-    </Router>
+    <div>
+      <Header />    {/* 공통 헤더 */}
+      <main>
+        <Outlet />  {/* 자식 라우트 컴포넌트들이 여기 렌더링됨 */}
+      </main>
+    </div>
   );
 }
-
-export default App;
