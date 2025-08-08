@@ -30,8 +30,11 @@ const ProfileList = () => {
               <div className="card-content">
                 <p><strong>Team. @PARADOX</strong></p>
                 <p>{card.position}</p>
-                <p>tel. <span className = "light-text">{card.tel}</span></p>
-                <p>email. <span className = "light-text">{card.email}</span></p>
+
+                <div className = "card-content">
+                  <p>tel. <span className = "light-text">{card.tel}</span></p>
+                  <p>email. <span className = "light-text">{card.email}</span></p>
+                </div>
 
               </div>
 
