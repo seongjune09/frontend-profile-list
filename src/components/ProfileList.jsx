@@ -36,7 +36,7 @@ const ProfileList = () => {
 
                 <div className = "button-group">
                   <button className = "edit-btn">수정</button>
-                  <button className = "delete-btn">삭제</button>
+                  <button className= "delete-btn">삭제</button>
                 </div>
 
               </div>
@@ -50,5 +50,3 @@ const ProfileList = () => {
 };
 
 export default ProfileList;
-
-

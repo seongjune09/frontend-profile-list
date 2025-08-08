@@ -8,6 +8,7 @@ html, body {
 .profile-list {
     width: 100%;
     max-width: 430px;
+    min-height: 870px;
     padding: 20px 0;
     display: flex;
     font-size : 22px;    
